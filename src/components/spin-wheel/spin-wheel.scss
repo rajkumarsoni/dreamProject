@@ -1,0 +1,29 @@
+spin-wheel {
+  #chart{
+    margin: 0 auto;
+    position: relative;
+    width:25px;
+    height:250px;
+    top:0;
+    left:0;
+}
+#question{
+    position: relative;
+    width:200px;
+    height:250px;
+    top:70px;
+    left:146px;
+}
+#question h6{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top:50%;
+    -webkit-transform:translate(0,-50%);
+            transform:translate(0,-50%);
+}
+
+}
